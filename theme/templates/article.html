@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %} {{ article.title }} {% endblock %}
+
+{% block head %}
+
+	{{ super() }}
+
+	{% for tag in article.tags %}
+		<meta name="tags" content="{{tag}}" />
+	{% endfor %}
+
+{% endblock %}
+
+{% block content %}
+<section id="content">
+
+	<header>
+		<h2>
+			<a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
+				{{ article.title }}
+			</a>
+		</h2>
+	</header>
+	
+	<footer>
+	
+		<address>
+			{% for tag in article.tags %}
+				<a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>
+			{% endfor %}
+        </address></br>
+	
+		<address>
+		
+			{% if article.modified %}
+				last modified: 
+				<time datetime="{{ article.modified.isoformat() }}"> 
+					{{ article.locale_modified }} 
+				</time>
+				</br>
+			{% endif %}
+			
+			first published: 
+			<time datetime="{{ article.date.isoformat() }}"> 
+				{{ article.locale_date }} 
+			</time>
+			
+		</address>
+	
+	</footer>
+	
+	<div>
+		{{ article.content }}
+	</div>
+	
+	{% if article.share_post and article.status != 'draft' %}
+		<section>
+			<p>
+				<a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
+					<img src="../images/tweet.png" width="45" height="15" />
+				</a>
+			</p>
+		</section>
+	{% endif %}
+
+</section>
+{% endblock %}

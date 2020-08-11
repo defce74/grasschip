@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+
+	<head>
+		{% block head %}
+			<link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet" />
+			<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+			<meta charset="utf-8" />
+		{% endblock head %}
+	</head>
+	
+	<body>
+	
+		<!-- banner -->
+		<header>
+				<h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+				<p>{{ SITESUBTITLE }}</p>
+		</header>
+		
+		<!-- menu -->
+		<nav><ul> 
+		
+			{% for title, link in MENUITEMS %}
+				<li><a href="{{ link }}">{{ title }}</a></li>
+			{% endfor %}
+			
+			{% if DISPLAY_PAGES_ON_MENU %} 
+				{% for p in pages %} <!-- display on menu any custom pages in pages directory -->
+					<li>
+						<a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+					</li>
+				{% endfor %}
+			{% endif %}
+			
+		</ul></nav>
+		
+		<!-- content -->
+		{% block content %}
+		{% endblock %}
+		
+		<!-- footer -->
+		<footer>
+			<address>
+				&copy; 2020 grasschip. 
+				Proudly powered by <a href="http://lesscss.org">Less</a>, 
+				<a href="http://getpelican.com/">Pelican</a>
+				and <a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a>,
+				which takes great advantage of <a href="http://python.org">Python</a>.
+			</address>
+		</footer>
+		
+	</body>
+</html>
+
