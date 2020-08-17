@@ -13,7 +13,8 @@
 {% endblock %}
 
 {% block content %}
-<section id="content">
+<section>
+	<hr>
 
 	<header>
 		<h2>
@@ -23,7 +24,7 @@
 		</h2>
 	</header>
 	
-	<footer>
+	<footer class="articleMeta">
 	
 		<address>
 			{% for tag in article.tags %}
@@ -31,22 +32,20 @@
 			{% endfor %}
         </address></br>
 	
-		<address>
-		
-			{% if article.modified %}
-				last modified: 
+		<div class="datetime">
+			{% if article.modified != article.date %}
+				modified: 
 				<time datetime="{{ article.modified.isoformat() }}"> 
 					{{ article.locale_modified }} 
 				</time>
 				</br>
 			{% endif %}
 			
-			first published: 
+			published: 
 			<time datetime="{{ article.date.isoformat() }}"> 
 				{{ article.locale_date }} 
 			</time>
-			
-		</address>
+		</div>
 	
 	</footer>
 	
@@ -55,12 +54,10 @@
 	</div>
 	
 	{% if article.share_post and article.status != 'draft' %}
-		<section>
-			<p>
-				<a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
-					<img src="../images/tweet.png" width="45" height="15" />
-				</a>
-			</p>
+		<section class="share">
+			<a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
+				<img src="../images/tweet.png" width="63" height="21" />
+			</a>
 		</section>
 	{% endif %}
 

@@ -1,6 +1,145 @@
-h1 {
-  color: #FF7F50;
+@import "../fonts/font.css";
+body {
+  background-color: #002b36;
+  font-family: Cabin;
+  /* Gudea */
+  color: #93A1A1;
+  font-size: 100%;
 }
-h2 {
-  color: #800080;
+body header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 5px;
+}
+body header img {
+  padding: 1px;
+}
+body header a h1 {
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+}
+body header nav {
+  padding: 1px;
+}
+body header nav ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body header nav ul li {
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  font-size: 120%;
+}
+body header div {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+body a:link,
+body a:visited,
+body a:active {
+  color: #268BCD;
+  text-decoration: none;
+}
+body a:hover {
+  color: #B27A1A;
+  text-decoration: none;
+}
+body section hr {
+  border: 1px solid #3E3E3E;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+body section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body section ul li article hr {
+  border: 1px solid #3E3E3E;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+body section ul li article div.summary {
+  margin-top: 0px;
+  font-family: Gudea;
+}
+body section ul li article div.summary a:link,
+body section ul li article div.summary a:visited,
+body section ul li article div.summary a:active {
+  color: #2AA198;
+}
+body section ul li article div.summary a:hover {
+  color: #B27A1A;
+}
+body section ul li article div.readmore {
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+  color: #268BCD;
+}
+body section footer.articleMeta {
+  margin-bottom: 0em;
+}
+body section footer.articleMeta div.datetime {
+  font-family: Gudea;
+  color: #969694;
+  font-style: italic;
+  font-size: 85%;
+}
+body section footer.articleMeta address a {
+  margin-bottom: 0em;
+}
+body section footer.articleMeta address a:link,
+body section footer.articleMeta address a:visited,
+body section footer.articleMeta address a:active {
+  color: #268BCD;
+}
+body section footer.articleMeta address a:hover {
+  color: #B27A1A;
+}
+body section figure iframe {
+  max-width: 100%;
+  height: auto;
+}
+body ul {
+  list-style-type: none;
+}
+body img {
+  max-width: 100%;
+  height: auto;
+}
+body footer.siteMeta {
+  margin-bottom: 2em;
+  font-size: 85%;
+}
+body footer.siteMeta hr {
+  border: 1px solid #3E3E3E;
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+body footer.siteMeta a:link,
+body footer.siteMeta a:visited,
+body footer.siteMeta a:active {
+  color: #2AA198;
+}
+body footer.siteMeta a:hover {
+  color: #B27A1A;
+}
+body section.share {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 800px) {
+  body {
+    margin: auto;
+    max-width: 800px;
+  }
 }

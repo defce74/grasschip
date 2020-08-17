@@ -4,12 +4,14 @@
 	<section>
 	
 		{% block content_title %}
-			<h2>All articles</h2>
+			<h2>Latest:</h2>
 		{% endblock %}
 	
 		<ul>
 			{% for article in articles_page.object_list %}
 				<li><article>
+					
+					<hr>
 				
 					<header> <h2>
 						<a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">
@@ -17,7 +19,7 @@
 						</a>
 					</h2> </header>
 						
-					<footer>
+					<footer class="articleMeta">
 					
 						<address>
 							{% for tag in article.tags %}
@@ -25,24 +27,25 @@
 							{% endfor %}
 		                </address></br>
 
-						<address>
-							{% if article.modified %}
-								last modified: 
+						<div class="datetime">
+							{% if article.modified != article.date %}
+								updated: 
 								<time datetime="{{ article.modified.isoformat() }}"> 
 									{{ article.locale_modified }} 
 								</time>
 								</br>
 							{% endif %}
 							
-							first published: 
+							published: 
 							<time datetime="{{ article.date.isoformat() }}"> 
 								{{ article.locale_date }} 
 							</time>
-						</address>
+						</div>
 		                
 					</footer>
 					
-					<div> {{ article.summary }} </div>
+					<div class="summary"> {{ article.summary }} </div>
+					<div class="readmore"><a href="{{ SITEURL }}/{{ article.url }}">read more</a></div>
 					
 				</article></li>
 			{% endfor %}

@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 SITENAME = 'grasschip'
-SITESUBTITLE = 'an independent news aggregator'
+SITESUBTITLE = 'An independent news aggregator'
 SITEURL = ''
 
 PATH = 'content'
@@ -53,4 +53,8 @@ DISPLAY_PAGES_ON_MENU = True
 
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'} }
+
+ARTICLE_ORDER_BY = 'reversed-modified'
+
+
 

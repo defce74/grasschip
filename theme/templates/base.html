@@ -6,6 +6,7 @@
 			<link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet" />
 			<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		{% endblock head %}
 	</head>
 	
@@ -13,36 +14,42 @@
 	
 		<!-- banner -->
 		<header>
-				<h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-				<p>{{ SITESUBTITLE }}</p>
-		</header>
-		
-		<!-- menu -->
-		<nav><ul> 
-		
-			{% for title, link in MENUITEMS %}
-				<li><a href="{{ link }}">{{ title }}</a></li>
-			{% endfor %}
+			<img src="../images/gc.png" width="50" height="50">
 			
-			{% if DISPLAY_PAGES_ON_MENU %} 
-				{% for p in pages %} <!-- display on menu any custom pages in pages directory -->
-					<li>
-						<a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
-					</li>
+			<a href="{{ SITEURL }}/"><h1>{{ SITENAME }}</h1></a>
+
+			<!-- menu -->
+			<nav><ul> 
+			
+				{% for title, link in MENUITEMS %}
+					<li><a href="{{ link }}">{{ title }}</a></li>
 				{% endfor %}
-			{% endif %}
+				
+				{% if DISPLAY_PAGES_ON_MENU %} 
+					{% for p in pages %} <!-- display on menu any custom pages in pages directory -->
+						<li>
+							<a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+						</li>
+					{% endfor %}
+				{% endif %}
+				
+			</ul></nav>
 			
-		</ul></nav>
+			<div>{{ SITESUBTITLE }}</div>
+		
+		</header>
 		
 		<!-- content -->
 		{% block content %}
 		{% endblock %}
 		
 		<!-- footer -->
-		<footer>
+		<footer class="siteMeta">
+			<hr>
 			<address>
-				&copy; 2020 grasschip. 
-				Proudly powered by <a href="http://lesscss.org">Less</a>, 
+				Licensed under 
+				<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0. </a>				 
+				Powered by <a href="http://lesscss.org">Less</a>, 
 				<a href="http://getpelican.com/">Pelican</a>
 				and <a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a>,
 				which takes great advantage of <a href="http://python.org">Python</a>.
