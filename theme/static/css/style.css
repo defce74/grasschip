@@ -1,8 +1,7 @@
 body {
   background-color: #002b36;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #93A1A1;
-  font-size: 100%;
 }
 body header {
   display: grid;
@@ -31,11 +30,14 @@ body header nav ul li {
   padding-left: 1.1em;
   padding-right: 1.1em;
   font-size: 120%;
+  font-family: "Times New Roman", Times, serif;
 }
 body header div {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 105%;
 }
 body a:link,
 body a:visited,
@@ -66,7 +68,8 @@ body section ul li article hr {
 }
 body section ul li article div.summary {
   margin-top: 0px;
-  font-family: serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 105%;
 }
 body section ul li article div.summary a:link,
 body section ul li article div.summary a:visited,
@@ -86,25 +89,29 @@ body section footer.articleMeta {
   margin-bottom: 0em;
 }
 body section footer.articleMeta div.datetime {
-  font-family: monospace;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 90%;
   color: #969694;
   font-style: italic;
-  font-size: 85%;
 }
-body section footer.articleMeta address a {
+body section footer.articleMeta address.tags a {
   margin-bottom: 0em;
 }
-body section footer.articleMeta address a:link,
-body section footer.articleMeta address a:visited,
-body section footer.articleMeta address a:active {
+body section footer.articleMeta address.tags a:link,
+body section footer.articleMeta address.tags a:visited,
+body section footer.articleMeta address.tags a:active {
   color: #268BCD;
 }
-body section footer.articleMeta address a:hover {
+body section footer.articleMeta address.tags a:hover {
   color: #B27A1A;
 }
 body section figure iframe {
   max-width: 100%;
   height: auto;
+}
+body section div.articleContent {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 105%;
 }
 body ul {
   list-style-type: none;
@@ -115,7 +122,8 @@ body img {
 }
 body footer.siteMeta {
   margin-bottom: 2em;
-  font-size: 85%;
+  font-size: 80%;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 body footer.siteMeta hr {
   border: 1px solid #3E3E3E;
@@ -134,6 +142,16 @@ body footer.siteMeta a:hover {
 body section.share {
   display: flex;
   justify-content: flex-end;
+}
+body ul.tagList {
+  font-style: italic;
+}
+body ul.tagList li {
+  padding-bottom: 0.25em;
+}
+body p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 105%;
 }
 @media screen and (min-width: 800px) {
   body {

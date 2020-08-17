@@ -6,7 +6,7 @@
 
 	<h1>tags</h1>
 	
-	<ul>
+	<ul class="tagList">
 		{% for tag, articles in tags|sort %}
 			<li><a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a> ({{ articles|count }})</li>
 		{% endfor %}

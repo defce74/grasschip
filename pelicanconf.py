@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 SITENAME = 'grasschip'
 SITESUBTITLE = 'An independent news aggregator'
 SITEURL = 'https://grasschip.netlify.app'
+RELATIVE_URLS = False
 
 PATH = 'content'
 
@@ -20,7 +21,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
@@ -33,9 +33,6 @@ SOCIAL = (('Email', 'grasschip@protonmail.com'),
 TWITTER_USERNAME = 'grasschip1'
 
 DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['/home/daniel/dev/pelican/pelican-plugins']
 PLUGINS = ['summary', 'pelican_youtube', 'share_post']
