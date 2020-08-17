@@ -1,8 +1,6 @@
-@import "../fonts/font.css";
 body {
   background-color: #002b36;
-  font-family: Cabin;
-  /* Gudea */
+  font-family: sans-serif;
   color: #93A1A1;
   font-size: 100%;
 }
@@ -68,7 +66,7 @@ body section ul li article hr {
 }
 body section ul li article div.summary {
   margin-top: 0px;
-  font-family: Gudea;
+  font-family: serif;
 }
 body section ul li article div.summary a:link,
 body section ul li article div.summary a:visited,
@@ -88,7 +86,7 @@ body section footer.articleMeta {
   margin-bottom: 0em;
 }
 body section footer.articleMeta div.datetime {
-  font-family: Gudea;
+  font-family: monospace;
   color: #969694;
   font-style: italic;
   font-size: 85%;

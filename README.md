@@ -1,6 +1,8 @@
 # grasschip
 An independent news aggregator
 
+[https://grasschip.netlify.app/](https://grasschip.netlify.app/)
+
 <address>
 	Licensed under
 	<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0. </a>				 
