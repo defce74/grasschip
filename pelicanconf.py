@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 SITENAME = 'grasschip'
 SITESUBTITLE = 'An independent news aggregator'
-SITEURL = ''
+SITEURL = 'https://grasschip.netlify.app'
 
 PATH = 'content'
 
