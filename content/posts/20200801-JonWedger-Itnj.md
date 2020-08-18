@@ -3,6 +3,7 @@ Date: 2020-08-01 15:28
 modified: 2020-08-03 8:34
 tags: HumanTrafficking
 status: published
+category: news
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

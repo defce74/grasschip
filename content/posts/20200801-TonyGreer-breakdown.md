@@ -3,6 +3,7 @@ Date: 2020-08-01 19:14
 Modified: 2020-08-01 19:14
 tags: Macroeconomics
 status: published
+category: news
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

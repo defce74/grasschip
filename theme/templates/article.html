@@ -56,7 +56,7 @@
 	{% if article.share_post and article.status != 'draft' %}
 		<section class="share">
 			<a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter">
-				<img src="../images/tweet.png" width="63" height="21" />
+				<img src="{{ SITEURL }}/images/tweet.png" width="63" height="21" />
 			</a>
 		</section>
 	{% endif %}

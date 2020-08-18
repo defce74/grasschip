@@ -3,6 +3,7 @@ Date: 2020-08-03 22:48
 modified: 2020-08-03 22:48
 tags: Journalism, MainstreamMedia
 status: published
+category: news
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

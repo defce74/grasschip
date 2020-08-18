@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 SITENAME = 'grasschip'
 SITESUBTITLE = 'An independent news aggregator'
-SITEURL = 'https://grasschip.netlify.app'
+SITEURL = ''
 RELATIVE_URLS = False
 
 PATH = 'content'
@@ -46,6 +46,7 @@ MENUITEMS = [
 
 DIRECT_TEMPLATES = ('index', 'tags')
 CATEGORY_SAVE_AS = ''
+DEFAULT_CATEGORY = 'news'
 DISPLAY_PAGES_ON_MENU = True
 
 STATIC_PATHS = ['images', 'extra']
@@ -53,5 +54,7 @@ EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'} }
 
 ARTICLE_ORDER_BY = 'reversed-modified'
 
+ARTICLE_URL = 'posts/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{slug}.html'
 
 

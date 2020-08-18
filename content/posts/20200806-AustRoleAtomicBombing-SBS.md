@@ -3,6 +3,7 @@ Date: 2020-08-06 11:16
 modified: 2020-08-09 19:26
 tags: NuclearWarfare, Journalism
 status: draft
+category: news
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

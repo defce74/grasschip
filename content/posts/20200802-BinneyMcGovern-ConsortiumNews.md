@@ -3,6 +3,7 @@ Date: 2020-08-02 20:48
 modified: 2020-08-09 19:24
 tags: Russiagate
 status: draft
+category: news
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
