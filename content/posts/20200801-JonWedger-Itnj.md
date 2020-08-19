@@ -4,6 +4,8 @@ modified: 2020-08-03 8:34
 tags: HumanTrafficking
 status: published
 category: news
+ogImage: /images/grasschip2.png
+ogDesc: Police whistleblower Jon Wedger at the ITNJ Judicial Commission of Inquiry into Human Trafficking and Child Sex Abuse.
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

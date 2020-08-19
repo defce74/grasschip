@@ -4,6 +4,8 @@ Modified: 2020-08-01 19:14
 tags: Macroeconomics
 status: published
 category: news
+ogImage: /images/grasschip2.png
+ogDesc: What a Professional Trader Thinks of the Fed, Robinhood and Real Estate
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

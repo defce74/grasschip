@@ -8,9 +8,16 @@
 	
 	<link rel="canonical" href="{{ SITEURL }}/{{ page.url }}"/>
 	
-	{% for tag in page.ogtags %}
-		<meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
-	{% endfor %}
+	<!-- opengraph tags -->
+	<meta property="og:title" content="{{ page.title }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+	<meta property="og:site_name" content="{{ SITENAME }}" />
+	<meta property="og:description" content="{{ page.ogdesc }}" />
+	<meta property="og:image" content="{{ SITEURL }}/images/grasschip2.png }}" />
+	<meta property="og:image:width" content="50" />
+	<meta property="og:image:height" content="50" />
+	<meta property="og:image:alt" content="missing" />
 
 {% endblock %}
 

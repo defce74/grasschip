@@ -4,6 +4,8 @@ modified: 2020-08-09 19:24
 tags: Russiagate
 status: draft
 category: news
+ogImage: /images/grasschip2.png
+ogDesc:
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

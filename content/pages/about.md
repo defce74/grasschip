@@ -1,4 +1,6 @@
 Title: about
+ogImage: /images/grasschip2.png
+ogDesc: An independent news aggregator.
 
 Grasschip attempts to provide a broad spectrum of news, current affairs, commentary and opinion from global sources, with a focus on independant journalism and alternate narratives.
 

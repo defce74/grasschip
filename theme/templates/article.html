@@ -10,11 +10,18 @@
 
 	{% for tag in article.tags %}
 		<meta name="tags" content="{{tag}}" />
+		<meta property="og:article:tag" content="{{tag}}" /> <!-- opengraph tags -->
 	{% endfor %}
 	
-	{% for tag in article.ogtags %} <!-- open graph tags -->
-		<meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
-	{% endfor %}
+	<!-- opengraph tags -->
+	<meta property="og:title" content="{{ article.title }}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+	<meta property="og:site_name" content="{{ SITENAME }}" />
+	<meta property="article:modified_time" content="{{ article.modified.isoformat() }}" />
+	<meta property="og:image" content="{{ SITEURL }}/{{ article.ogimage }}" />
+	<meta property="og:image:alt" content="missing" />
+	<meta property="og:description" content="{{ article.ogdesc }}" />
 
 {% endblock %}
 
