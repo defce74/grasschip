@@ -12,7 +12,7 @@ On the 75th anniversary of the first ever atomic weapon attacks, SBS World News 
 <figure>
   <img src='/assets/images/atomicPlague.jpg' alt='missing' />
     <figcaption>
-	<a href="https://www.express.co.uk" class="extiw" title="de:Benutzer:Ra'ike">The Atomic Plague: in British newspaper the Daily Express</a>
+		<a href="https://www.express.co.uk" class="extiw" title="de:Benutzer:Ra'ike">The Atomic Plague: in British newspaper the Daily Express</a>
     </figcaption>
 </figure>
 

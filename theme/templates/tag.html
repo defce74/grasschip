@@ -2,6 +2,16 @@
 
 {% block title %}{{ tag }}{% endblock %}
 
+{% block head %}
+
+	{{ super() }}
+	
+	<link rel="canonical" href="{{ SITEURL }}/{{ tag.url }}"/>
+
+	<meta name="tags" content="{{ tag }}" />
+
+{% endblock %}
+
 {% block content_title %}
 
 	<h2><em>#{{ tag }}</em></h2>

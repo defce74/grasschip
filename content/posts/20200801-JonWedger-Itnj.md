@@ -15,7 +15,7 @@ Police whistleblower [Jon Wedger](https://commission.itnj.org/2018/06/05/john-we
 	<iframe
 		src="https://www.youtube-nocookie.com/embed/z01qB-HeYV8"
 		frameborder="0"
-		SameSite="none"
+		SameSite="Lax"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		allowfullscreen = "yes">
 	</iframe>

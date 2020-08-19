@@ -5,9 +5,15 @@
 {% block head %}
 
 	{{ super() }}
+	
+	<link rel="canonical" href="{{ SITEURL }}/{{ article.url }}"/>
 
 	{% for tag in article.tags %}
 		<meta name="tags" content="{{tag}}" />
+	{% endfor %}
+	
+	{% for tag in article.ogtags %} <!-- open graph tags -->
+		<meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
 	{% endfor %}
 
 {% endblock %}

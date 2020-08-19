@@ -1,5 +1,19 @@
 {% extends "base.html" %}
 
+{% block head %} 
+
+	{{ super() }} 
+	
+	<link rel="canonical" href="{{ SITEURL }}"/>
+	
+	<!-- open graph tags -->
+	<meta property="og:site_name" content="{{ SITENAME }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="{{ SITEURL }}" />
+	<meta name="og:description" content="{{ SITESUBTITLE }}"/>
+
+{% endblock %}
+
 {% block content %}
 	<section>
 	

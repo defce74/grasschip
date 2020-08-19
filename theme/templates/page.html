@@ -2,7 +2,17 @@
 
 {% block title %}{{ page.title }}{%endblock%}
 
-{% block head %} {{ super() }} {% endblock %}
+{% block head %} 
+
+	{{ super() }} 
+	
+	<link rel="canonical" href="{{ SITEURL }}/{{ page.url }}"/>
+	
+	{% for tag in page.ogtags %}
+		<meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+	{% endfor %}
+
+{% endblock %}
 
 {% block content %}
 
