@@ -19,6 +19,6 @@ Police whistleblower [Jon Wedger](https://commission.itnj.org/2018/06/05/john-we
 		frameborder="0"
 		SameSite="Lax"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen = "yes">
+		allowfullscreen="true">
 	</iframe>
 </figure>

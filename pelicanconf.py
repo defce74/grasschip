@@ -35,7 +35,7 @@ TWITTER_USERNAME = 'grasschip1'
 DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['/home/daniel/dev/pelican/pelican-plugins']
-PLUGINS = ['summary', 'share_post', 'sitemap', 'pelican-open_graph']
+PLUGINS = ['summary', 'share_post', 'sitemap']
 
 # THEME = "/home/daniel/dev/pelican/pelican-themes/simple"
 THEME = "/home/daniel/dev/pelican/grasschip/theme"

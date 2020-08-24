@@ -5,7 +5,7 @@ tags: Russiagate
 status: draft
 category: news
 ogImage: /images/grasschip2.png
-ogDesc:
+ogDesc: Russiagate: Who Was Guccifer 2.0
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 

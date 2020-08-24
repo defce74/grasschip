@@ -112,9 +112,20 @@ body section figure iframe {
   max-width: 100%;
   height: auto;
 }
+body section figure figcaption {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 90%;
+  color: #969694;
+  font-style: italic;
+}
 body section div.articleContent {
   font-family: "Times New Roman", Times, serif;
   font-size: 105%;
+}
+body section div.articleContent div.tweet div {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 body ul {
   list-style-type: none;

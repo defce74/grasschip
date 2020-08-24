@@ -5,22 +5,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://grasschip.netlify.app/</loc>
-<lastmod>2020-08-20T03:54:29-00:00</lastmod>
+<lastmod>2020-08-24T16:07:16-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://grasschip.netlify.app/tags.html</loc>
-<lastmod>2020-08-20T03:54:29-00:00</lastmod>
+<lastmod>2020-08-24T16:07:16-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://grasschip.netlify.app/pages/about.html</loc>
-<lastmod>2020-08-20T03:54:29-00:00</lastmod>
+<lastmod>2020-08-24T16:07:16-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://grasschip.netlify.app/posts/gordon-duff-analysis-of-beirut-blast/</loc>
+<lastmod>2020-08-24T11:07:00+08:00</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -46,14 +53,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://grasschip.netlify.app/tag/journalism.html</loc>
-<lastmod>2020-08-03T22:48:00+07:43</lastmod>
+<loc>https://grasschip.netlify.app/tag/beirutblast.html</loc>
+<lastmod>2020-08-24T11:07:00+07:43</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://grasschip.netlify.app/tag/mainstreammedia.html</loc>
+<lastmod>2020-08-24T11:07:00+07:43</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://grasschip.netlify.app/tag/journalism.html</loc>
 <lastmod>2020-08-03T22:48:00+07:43</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
