@@ -13,7 +13,7 @@ An edited version of the Gordon Duff (Veterans Today) interview from the [Telewe
 
 *Note: If anyone is able to provide a translation of the original report [please get in touch](https://grasschip.netlify.app/pages/about.html).*
 
-<figure class="video_container">
+<figure class="video_youtube">
 	<iframe
 		src="https://www.youtube-nocookie.com/embed/8lwvi19TqAQ"
 		frameborder="0"
@@ -87,28 +87,28 @@ Machnouk also alleges that *"missile remnants had been discovered in the rubble 
 
 -grasschip
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-03.jpg' alt='missing' />
 	<figcaption>
 		People evacuate wounded after a massive explosion in Beirut, Lebanon, Tuesday, Aug. 4, 2020. (AP Photo/Hassan Ammar)
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-06.jpg' alt='missing' />
 	<figcaption>
 		A man carries a wounded child through the city (Image: ZUMAPRESS.com / MEGA)
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-05.jpg' alt='missing' />
 	<figcaption>
 		Valarie Fakhoury, a British grandmother with her Lebanese daughter and granddaughter, stand outside the emergency ward of a hospital in the Hamra district of central Beirut following a huge explosion that rocked the Lebanese capital on August 4, 2020. (Photo by Janine HAIDAR / AFP via Getty Images)
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-01.jpg' alt='missing' />
 	<figcaption>
 		<a href="https://www.unicefusa.org/stories/deadly-blast-rocks-lebanon-already-crisis/37528">
@@ -117,7 +117,7 @@ Machnouk also alleges that *"missile remnants had been discovered in the rubble 
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-04.jpg' alt='missing' />
 	<figcaption>
 		<a href="https://www.unhcr.org/lb/13297-unhcr-supporting-lebanons-relief-and-recovery-efforts-following-the-devastating-beirut-explosion.html/5f2d0b774">
@@ -126,7 +126,7 @@ Machnouk also alleges that *"missile remnants had been discovered in the rubble 
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-02.jpg' alt='missing' />
 	<figcaption>
 		<a href="https://www.savethechildren.net/news/fears-children-beirut-explosion-hospitals-are-completely-overwhelmed">
@@ -135,7 +135,7 @@ Machnouk also alleges that *"missile remnants had been discovered in the rubble 
 	</figcaption>
 </figure>
 
-<figure>
+<figure class="image">
 	<img src='/images/posts/beirutBlast/beirutBlast-07.jpg' alt='missing' />
 	<figcaption>
 		A wounded man receives help outside a hospital following an explosion in the Lebanese capital Beirut on August 4, 2020. IBRAHIM AMRO / AFP

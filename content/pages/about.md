@@ -6,7 +6,7 @@ Grasschip attempts to provide a broad spectrum of news, current affairs, comment
 
 Get in touch (right-click to copy email address):
 
-<figure>
+<figure class="image">
 	<a href="mailto:grasschip@protonmail.com" title="grasschip at protonmail dot com" target="_blank">
 		<img src='../images/email.png' alt='grasschip at protonmail dot com' width="294" height="45" />
 	</a>

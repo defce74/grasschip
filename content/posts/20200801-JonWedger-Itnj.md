@@ -13,7 +13,7 @@ Police whistleblower [Jon Wedger](https://commission.itnj.org/2018/06/05/john-we
 
 <!-- PELICAN_END_SUMMARY -->
 
-<figure class="video_container">
+<figure class="video_youtube">
 	<iframe
 		src="https://www.youtube-nocookie.com/embed/z01qB-HeYV8"
 		frameborder="0"
