@@ -4,7 +4,7 @@ modified: 2020-08-29 14:52
 tags: NuclearWarfare, Journalism
 status: published
 category: news
-ogImage: /images/posts/burchett/atomicPlague.jpg
+ogImage: /images/posts/burchett/burchett-03.jpg
 ogDesc: On the 75th anniversary of the first ever atomic weapon attacks, SBS World News Radio provides insight into the role of various Australians.
 
 <!-- PELICAN_BEGIN_SUMMARY -->
